@@ -16,3 +16,4 @@ To use the calculator, simply open the `index.html` file in your web browser.
 
 Contributions are welcome! If you have any suggestions for improvements or new features, please open an issue or submit a pull request.
 
+!It is not Responsive
