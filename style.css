@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Digital";
+  src: url(Thousandyard.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  border: 1px solid whitesmoke;
+  border-radius: 1em;
+  width: 18em;
+  height: 28.6em;
+  background: linear-gradient(to bottom, whitesmoke, white);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+.screen {
+  /* border: 1px solid red; */
+  border-radius: 0.5em;
+  height: 7em;
+  margin: 0.5em;
+}
+
+.del {
+  display: flex;
+  margin: 0.5em;
+  background-color: white;
+  border-radius: 67px;
+  width: fit-content;
+  gap: 0.5em;
+}
+
+.text {
+  display: flex;
+  /* flex-basis: 1%; */
+}
+
+.del > div {
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Digital;
+}
+
+.numbers > div {
+  border: 1px solid whitesmoke;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Digital;
+  background: linear-gradient(to right, whitesmoke, white);
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0.5em;
+  gap: 0.5em;
+}
+
+.signs > div {
+  /* border: 1px solid black; */
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Digital;
+  font-size: 1em;
+}
+
+#equal {
+  background-color: whitesmoke;
+}
+
+.signs {
+  margin: 0.5em;
+  gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 6.7em;
+}
+
+.main {
+  display: flex;
+  background-color: lightblue;
+  border-radius: 1em;
+}
+
+.screen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.text {
+  font-family: Digital;
+  margin: 0.5em;
+  font-size: 3em;
+}
+.main:hover {
+  cursor: pointer;
+}
